@@ -20,7 +20,7 @@
 ## 3. Пример использования:
 ```
 $ python manage.py shell
->>> from datacenter import script
+>>> import script
 >>> kid = script.get_child('Гордеев Олимпий') 
 >>> kid.full_name
 'Гордеев Олимпий Харитонович'
