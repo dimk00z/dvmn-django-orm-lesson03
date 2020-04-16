@@ -63,7 +63,7 @@ def get_lesson(year, letter, subject_title):
         year_of_study=year,
         group_letter=letter,
         subject__title=subject_title
-    ).order_by('date').first()
+    ).order_by('-date').first()
 
 
 def create_commendation(schoolkid, subject):
